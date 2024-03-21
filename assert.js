@@ -20,7 +20,7 @@ console.log('Isento')
 assert.equal(imposto(2259.2), 'Isento');
 console.log('Isento')
 
-assert.equal(imposto(2700), 'Alíquota de 7,5%');
+assert.equal(imposto(2260), 'Alíquota de 7,5%');
 console.log('Alíquota de 7,5%')
 assert.equal(imposto(2826.65), 'Alíquota de 7,5%');
 console.log('Alíquota de 7,5%')
